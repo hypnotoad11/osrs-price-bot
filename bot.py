@@ -5,7 +5,8 @@ import aiohttp
 from datetime import datetime, timedelta
 
 # >>> REPLACE THESE TWO WITH YOUR REAL VALUES <<<
-TOKEN = "MTQ1OTgyMDU2Mzk1NzY4MjIyNw.GxJv-k.X08seJZjh3Ai8rSWlYVTig3tpkRDq-10-XZEo0"
+import os
+TOKEN = os.getenv("TOKEN")
 CHANNEL_ID = 1459818494358061136
   # replace with your channel ID, just the numbers
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
